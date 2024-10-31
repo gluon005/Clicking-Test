@@ -22,6 +22,9 @@ function countSeconds() {
     }, 1000); 
 }
 start.addEventListener("click", () => {
+    nclick.innerText=0;
+    x=0;
+    click.innerText ="Click here";
     click.disabled = false;
     click.classList.add("enabled");
     countSeconds();
